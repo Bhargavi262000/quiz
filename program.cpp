@@ -27,8 +27,8 @@ int main()
 {
  
 cout << "* * * * * * * * * * * * * * * * * * " << endl;
-cout << "* * * * * * * WELCOME* * * * * * * * " << endl;
-cout << "* * * * * * * * * * * * * * * * * *" << endl;
+cout << "* * * * * * * WELCOME * * * * * * * " << endl;
+cout << "* * * * * * * * * * * * * * * * * * " << endl;
  
 cout << "Press Enter to start the quiz ......... " << endl;
 cin.get();
