@@ -1,2 +1,1 @@
-# quiz
-quiz making using c++
+Creating a QUIZ using c++
