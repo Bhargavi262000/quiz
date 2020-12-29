@@ -26,11 +26,11 @@ class Question
 int main()
 {
  
-cout << "* * * * * *" << endl;
-cout << "*Title here*" << endl;
-cout << "* * * * * *" << endl;
+cout << "* * * * * * * * * * * * * * * * * * " << endl;
+cout << "* * * * * * * WELCOME* * * * * * * * " << endl;
+cout << "* * * * * * * * * * * * * * * * * *" << endl;
  
-cout << "Press Enter to start the quiz .. " << endl;
+cout << "Press Enter to start the quiz ......... " << endl;
 cin.get();
  
 string Name;
@@ -67,85 +67,91 @@ Question q9;
 Question q10;
  
  
-q1.setValues ("Question here ....",
-        "possible answer 1",
-        "possible answer 2",
-        "possible answer 3",
-        "possible answer 4",
+q1.setValues ("Where does the manit college situated ?",
+        "AP",
+        "BARGARH,ODISHA",
+        "BHOPAL,MP",
+        "TELANGANA",
         3, // The position of the correct answe
         10); // The answer value in points
  
-q2.setValues ("Question here ....",
-        "possible answer 1",
-        "possible answer 2",
-        "possible answer 3",
-        "possible answer 4",
+q2.setValues ( "Where does the manit college situated ?",
+        "AP",
+        "BARGARH,ODISHA",
+        "BHOPAL,MP",
+        "TELANGANA",
         3, // The position of the correct answe
-        10); // The answer value in points
+        10); // The answer value in points"Question here ....",
+        
+q3.setValues ("Where does the manit college situated ?",
+        "AP",
+        "BARGARH,ODISHA",
+        "BHOPAL,MP",
+        "TELANGANA",
+        3, // The position of the correct answe
+        10); // The answer value in points"Question here ....",
+       
  
-q3.setValues ("Question here ....",
-        "possible answer 1",
-        "possible answer 2",
-        "possible answer 3",
-        "possible answer 4",
+q4.setValues ("Where does the manit college situated ?",
+        "AP",
+        "BARGARH,ODISHA",
+        "BHOPAL,MP",
+        "TELANGANA",
         3, // The position of the correct answe
-        10); // The answer value in points
+        10); // The answer value in points"Question here ....",
+        
  
-q4.setValues ("Question here ....",
-        "possible answer 1",
-        "possible answer 2",
-        "possible answer 3",
-        "possible answer 4",
+q5.setValues ("Where does the manit college situated ?",
+        "AP",
+        "BARGARH,ODISHA",
+        "BHOPAL,MP",
+        "TELANGANA",
         3, // The position of the correct answe
-        10); // The answer value in points
+        10); // The answer value in points"Question here ....",
+        
  
-q5.setValues ("Question here ....",
-        "possible answer 1",
-        "possible answer 2",
-        "possible answer 3",
-        "possible answer 4",
+q6.setValues ("Where does the manit college situated ?",
+        "AP",
+        "BARGARH,ODISHA",
+        "BHOPAL,MP",
+        "TELANGANA",
         3, // The position of the correct answe
-        10); // The answer value in points
+        10); // The answer value in points"Question here ....",
+        
+q7.setValues ("Where does the manit college situated ?",
+        "AP",
+        "BARGARH,ODISHA",
+        "BHOPAL,MP",
+        "TELANGANA",
+        3, // The position of the correct answe
+        10); // The answer value in points"Question here ....",
+        
+q8.setValues ("Where does the manit college situated ?",
+        "AP",
+        "BARGARH,ODISHA",
+        "BHOPAL,MP",
+        "TELANGANA",
+        3, // The position of the correct answe
+        10); // The answer value in points"Question here ....",
+       
  
-q6.setValues ("Question here ....",
-        "possible answer 1",
-        "possible answer 2",
-        "possible answer 3",
-        "possible answer 4",
+q9.setValues ("Where does the manit college situated ?",
+        "AP",
+        "BARGARH,ODISHA",
+        "BHOPAL,MP",
+        "TELANGANA",
         3, // The position of the correct answe
-        10); // The answer value in points
+        10); // The answer value in points"Question here ....",
+       
  
-q7.setValues ("Question here ....",
-        "possible answer 1",
-        "possible answer 2",
-        "possible answer 3",
-        "possible answer 4",
+q10.setValues ("Where does the manit college situated ?",
+        "AP",
+        "BARGARH,ODISHA",
+        "BHOPAL,MP",
+        "TELANGANA",
         3, // The position of the correct answe
-        10); // The answer value in points
- 
-q8.setValues ("Question here ....",
-        "possible answer 1",
-        "possible answer 2",
-        "possible answer 3",
-        "possible answer 4",
-        3, // The position of the correct answe
-        10); // The answer value in points
- 
-q9.setValues ("Question here ....",
-        "possible answer 1",
-        "possible answer 2",
-        "possible answer 3",
-        "possible answer 4",
-        3, // The position of the correct answe
-        10); // The answer value in points
- 
-q10.setValues ("Question here ....",
-        "possible answer 1",
-        "possible answer 2",
-        "possible answer 3",
-        "possible answer 4",
-        3, // The position of the correct answe
-        10); // The answer value in points
+        10); // The answer value in points"Question here ....",
+       
  
 q1.askQuestion();
  
