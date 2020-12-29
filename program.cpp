@@ -178,9 +178,10 @@ cout << "Your Total Score is " << Total << "out of 100" << endl;
 if (Total >= 70)
 {
     cout << "Great you passed the quiz!" << endl;
-    cout << "&&&&&&&&&&&&" << endl;
-    cout << "& Congrats &" << endl;
-    cout << "&&&&&&&&&&&&" << endl;
+cout << "* * * * * * * * * * * * * * * * * * " << endl;
+cout << "* * * * * * * CONGRATULATIONS ! * *  " << endl;
+cout << "* * * * * * * * * * * * * * * * * * " << endl;
+    
 }
  
 else {
